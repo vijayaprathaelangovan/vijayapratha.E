@@ -1,0 +1,14 @@
+
+Movie.db;
+CREATE TABLE Movie(Movie_name text,actor text,actoress text,director text,year_of_release integer NOT NULL);
+INSERT INTO Movie(Movie_name,actor,actoress,director,year_of_release)
+VALUES('doctor','vijay','jothika','ramash',2014,);
+INSERT INTO Movie(Movie_name,actor,actoress,director,year_of_release)
+VALUES('theri','surya','nayanthara','suresh',2020,);
+INSERT INTO Movie(Movie_name,actor,actorss,director,year_of_release)
+VALUES('don','danush','samantha','venkat',2006,);
+INSERT INTO Movie(Movie_name,actor,actoress,director,year_of_release)
+VALUES('master','siva','anushka','shiva',2015,);
+//
+SELECT *FROM Movie;
+SELECT movie FROM Moive WHERE actor='vijay';
